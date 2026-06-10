@@ -444,7 +444,7 @@ void setup() {
     Zigbee.addEndpoint(&zbCO2);
 
     zbTVOC.addAnalogInput();
-    zbTVOC.setAnalogInputDescription("eTVOC (ppb)");
+    zbTVOC.setAnalogInputDescription("eTVOC");
     zbTVOC.setAnalogInputApplication(ESP_ZB_ZCL_AI_COUNT_UNITLESS_OTHER);
     zbTVOC.setAnalogInputResolution(1);
     zbTVOC.setManufacturerAndModel("TinySquare", "AirCube TVOC");
